@@ -315,12 +315,14 @@ namespace DanfeSharp.Modelo
             var contingencyType = TipoEmissao switch             {
                 FormaEmissao.ContingenciaDPEC => "DPEC",
                 FormaEmissao.ContingenciaFSDA => "FSDA",
+                FormaEmissao.ContingenciaFS => "FSIA",
                 FormaEmissao.ContingenciaSVCAN => "SVC-AN",
                 FormaEmissao.ContingenciaSVCRS => "SVC-RS",
+                FormaEmissao.ContingenciaSCAN => "SCAN",
                 _ => throw new NotImplementedException()
             };
 
-            var contingencyDateTime = ContingenciaDataHora!.Value.ToString("yyyy-MM-ddTHH:mm:sszzz");
+            var contingencyDateTime = ContingenciaDataHora?.ToString("yyyy-MM-ddTHH:mm:sszzz");
 
             return $"""
                 CONTINGÊNCIA {contingencyType}

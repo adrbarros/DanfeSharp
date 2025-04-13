@@ -28,6 +28,7 @@ namespace DanfeSharp
             {"fpTransferenciabancaria", "Transferência bancária, Carteira Digital" },
             {"fpProgramadefidelidade", "Programa de fidelidade, Cashback, Crédito Virtualo" },
             {"fpSemPagamento", "Sem pagamento" },
+            {"fpPagamentoEletronicoNaoInformado", "Pagamento eletrônico não informado" },
             {"fpOutro", "Outros" }
         };
 
@@ -178,7 +179,7 @@ namespace DanfeSharp
                 {"AP", "www.sefaz.ap.gov.br/nfce/consulta" },
                 {"AM", "www.sefaz.am.gov.br/nfce/consulta"},
                 {"BA", "www.sefaz.ba.gov.br/nfce/consulta"},
-                {"CE", "www.sefaz.ce.gov.br/nfce/consulta"},
+                {"CE", "http://nfce.sefaz.ce.gov.br/pages/ShowNFCe.html"},
                 {"DF", "www.fazenda.df.gov.br/nfce/consulta"},
                 {"ES", "www.sefaz.es.gov.br/nfce/consulta"},
                 {"GO", "www.sefaz.go.gov.br/nfce/consulta"},
@@ -214,7 +215,7 @@ namespace DanfeSharp
                 {"AP", "www.sefaz.ap.gov.br/nfce/consulta" },
                 {"AM", "www.sefaz.am.gov.br/nfce/consulta"},
                 {"BA", "hinternet.sefaz.ba.gov.br/nfce/consulta"},
-                {"CE", "www.sefaz.ce.gov.br/nfce/consulta"},
+                {"CE", "http://nfceh.sefaz.ce.gov.br/pages/ShowNFCe.html"},
                 {"DF", "www.fazenda.df.gov.br/nfce/consulta"},
                 {"ES", "www.sefaz.es.gov.br/nfce/consulta"},
                 {"GO", "www.sefaz.go.gov.br/nfce/consulta"},
