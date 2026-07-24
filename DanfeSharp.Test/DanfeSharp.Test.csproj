@@ -62,7 +62,9 @@
     <Compile Include="DanfeXmlTests.cs" />
     <Compile Include="Extentions.cs" />
     <Compile Include="FabricaFake.cs" />
+    <Compile Include="FormatadorTests.cs" />
     <Compile Include="DanfeCanceladaTests.cs" />
+    <Compile Include="DanfeSimplificadoTipo2Tests.cs" />
     <Compile Include="FormaPagamentoTests.cs" />
     <Compile Include="LogoTests.cs" />
     <Compile Include="ProdutoIcmsColumnTests.cs" />
